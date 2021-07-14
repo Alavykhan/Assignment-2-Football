@@ -103,3 +103,15 @@ main{
     width: 567px;
     height: 427px;
 }
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.logo img{
+    width: 484px;
+    height: 110px;
+}
