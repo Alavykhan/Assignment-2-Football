@@ -47,7 +47,7 @@ main{
 .focal-text img:hover{
     transform: translate(600px, 500px);
 }
-.buttons {
+.buttons  {
     width: 168px;
     height: 44px;
     background-color: rgba(224, 44, 109, 1);
@@ -121,12 +121,12 @@ main{
     font-size: 35px;
     font-weight: 700;
 }
-.highlights-info .buttons-2 a{
+.highlights-info .buttons-3 a{
     text-decoration: none;
     color: white;
     padding-right: 8px;
 }
-.buttons-2{
+.buttons-3{
     width: 168px;
     height: 44px;
     background-color: rgba(224, 44, 109, 1);
