@@ -1,0 +1,73 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* Base Style and Utilities  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 100%;
+}
+.focal-container{
+    background-color: rgb(45,37,160);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 156px;
+    padding-right: 124px;
+   
+}
+.focal-text{
+    font-size:50px;
+    font-weight: 700;
+}
+.focal-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 8px;
+}
+.focal-text span{
+    font-size: 16px;
+}
+.focal-image img{
+    width: 100%;
+    margin-top: 10%;
+    padding-left: 70px;
+}
+.buttons {
+    width: 168px;
+    height: 44px;
+    background-color: rgba(224, 44, 109, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 169px;
+}
+/* Players  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 70px;
+}
+.player{
+    width: 360px;
+    margin-bottom: 27px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.players .player .player-banner img{
+    width: 300px;
+    height: 256px;
+    padding: 15px 30px 0px 30px;
+}
+.player-detail{
+    padding: 15px 30px 15px 30px;
+}
