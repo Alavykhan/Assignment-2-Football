@@ -27,7 +27,7 @@ main{
     font-size:50px;
     font-weight: 700;
 }
-.focal-text a{
+.focal-text .buttons a{
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -46,6 +46,7 @@ main{
     width: 168px;
     height: 44px;
     background-color: rgba(224, 44, 109, 1);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -70,4 +71,35 @@ main{
 }
 .player-detail{
     padding: 15px 30px 15px 30px;
+}
+/* highlights */
+.highlights-container{
+    display: flex;
+    align-items: center;
+    padding: 165px 110px 158px 110px;
+}
+.highlights-info{
+    padding-right: 66px;
+}
+.highlights-info h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.highlights-info .buttons-2 a{
+    text-decoration: none;
+    color: white;
+    padding-right: 8px;
+}
+.buttons-2{
+    width: 168px;
+    height: 44px;
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
 }
