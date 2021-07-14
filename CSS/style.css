@@ -77,6 +77,37 @@ main{
 .player-detail{
     padding: 15px 30px 15px 30px;
 }
+/* El-Clsico  */
+.watch-live img{
+    width: 100%;
+}
+.watch-live{
+    position: relative;
+}
+.el-clasico{
+    position: absolute;
+    top: 313px;
+    left: 400px;
+    color: white;
+    font-size: 50px;
+}
+.buttons-1{
+    width: 168px;
+    height: 44px;
+    background-color: rgb(253, 215, 0);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 450px;
+    left: 600px;
+}
+.buttons-1 a{
+    text-decoration: none;
+    color: black;
+    padding-right: 8px;
+}
 /* highlights */
 .highlights{
     display: flex;
